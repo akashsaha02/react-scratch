@@ -1,8 +1,12 @@
+import Akash from "./Akash";
 
 
 function App() {
   return (
-    <h1>Hello React</h1>
+    <>
+      <Akash />
+      <h1>Hello React</h1>
+    </>
   );
 }
 
