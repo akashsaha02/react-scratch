@@ -10,6 +10,20 @@ function App() {
   const addValue = () => {
     counter += 1
     setCounter(counter)
+    // update as a state no callback
+    // setCounter(counter)
+    // setCounter(counter)
+    // setCounter(counter)
+
+    // result will be +1
+
+    // updates with respect to previous state the callback
+    // setCounter(prevcounter=>prevcounter+1)
+    // setCounter(prevcounter=>prevcounter+1)
+    // setCounter(prevcounter=>prevcounter+1)
+    // setCounter(prevcounter=>prevcounter+1)
+
+    // result will be +4
   }
 
   const decreaseValue = () => {
